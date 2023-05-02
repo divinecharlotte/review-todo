@@ -16,3 +16,16 @@ const removeCompletedTodos = () => {
 };
 
 export { changeTodoStatus, removeCompletedTodos };
+
+
+
+
+// const removeCompletedTodos = () => {
+//   const uncompletedTodos = mylist.filter((element) => element.completed !== true);
+//   const newTodos = uncompletedTodos.map((element, index) => {
+//     element.index = index + 1;
+//     return element;
+//   });
+//   localStorage.setItem('mylist', JSON.stringify(newTodos));
+//   updateUI(newTodos);
+// };
